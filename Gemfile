@@ -74,6 +74,8 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-rails'
   gem 'pry-stack_explorer'
+  gem 'hirb'
+  gem 'awesome_print'
   gem 'letter_opener' #メール送信機能をローカルで試すためのgem
   gem 'web-console', '~> 2.0'
 
