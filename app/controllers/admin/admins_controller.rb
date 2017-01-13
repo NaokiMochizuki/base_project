@@ -1,4 +1,5 @@
-class AdminController < ApplicationController
+class Admin::AdminsController < ActionController::Base
+
   layout 'admin_lte_2'
 
   def index

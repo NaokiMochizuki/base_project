@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :admin
+  namespace :admin do
+    resources :admins
+  end
+
 end
